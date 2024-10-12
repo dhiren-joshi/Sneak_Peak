@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.forgot-password-wrapper {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.forgot-password-heading {
+    font-size: 2em;
+    color: #faf4f4;
+    margin-bottom: 100px;
+    font-weight: bolder;
+    text-shadow: 0 0 30px #fff;
+
+}
+
+.forgot-password-container {
+    background:transparent;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(248, 245, 245, 0.986);;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+button{
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 4px;
+     margin-top:30px ;
+}
+
+button:hover {
+    background-color:#8d8a8a;
+}

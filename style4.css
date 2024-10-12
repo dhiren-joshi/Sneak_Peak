@@ -1,0 +1,308 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.welcome{
+    color: white ;
+    font: 1.5em;
+    animation: fade 3s ease-in-out infinite;
+    text-align: center;
+    
+}
+@keyframes fade {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+.social-icons {
+    position: absolute;
+    display: flex;
+    left: 20px;
+}
+
+.social-icons a {
+    margin-right: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-bar {
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.search-bar {
+    display: flex;
+    align-items:center;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 200px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    /* left: 110000px; */
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+     flex-grow: 1;
+    /* height: 80px; */
+    margin-right: 90px;
+}
+
+.logo img {
+    height: 100%;
+    width: auto;
+    /* align-items: center; */
+}
+
+#user-actions {
+    display: flex;
+    align-items: center;
+}
+
+#user-actions a {
+    margin-right: 35px;
+    color: #000;
+    text-decoration: none;
+}
+
+#user-actions select {
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #fff;                                                 
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin:0;
+    padding: 30px;
+    display: flex;
+    
+    
+}
+
+.nav-links li {
+    position:relative;
+    padding: 0px 35px;
+    
+    
+}
+
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content li {
+    padding: 10px;
+    width: 200px;
+    list-style: none;
+}
+
+.dropdown-content li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    justify-content: space-evenly;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li a:hover {
+    background-color: #f5f5f5;
+}
+
+
+.buttons {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+}
+
+.buttons button {
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.shoe-category {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.category-item {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.category-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 40px;
+    border-color:#fff ;
+    background-color: #fff;
+}
+
+.category-item h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.category-item a {
+    text-decoration: none;
+    color: #e63946;
+    font-weight: bold;
+}
+
+.products {
+    padding: 20px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.products .view-all {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #d9534f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.products .product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.products .product-item {
+    background-color: #fff;
+    /* border: 1px solid #fff; */
+    padding: 60px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.products .product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.products .product-item p {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+/* Add this CSS to your existing style4.css file */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+

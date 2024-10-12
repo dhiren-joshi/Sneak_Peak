@@ -1,0 +1,100 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0e0707;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-wrapper {
+    text-align: center;
+}
+
+.welcome-heading {
+    font-size: 2em;
+    color: #ffffff; /* Change to your desired text color */
+    margin-bottom: 150px;
+    font-weight: bolder ;
+    text-shadow:0 0 25px #f9f6f6;
+
+    
+}
+/* .login-background {
+    background: url('pexels-pixabay-267202.jpg') no-repeat center center fixed;
+    background-size: cover;
+    /* filter: blur(10px); */
+
+
+/* .login-background::before { 
+     content: ""; 
+     position: absolute; 
+     top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    background: inherit;
+    filter: blur(10px);
+    z-index: 1;
+ }  */ 
+
+.login-container {
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(248, 245, 245, 0.986);
+}
+
+.login-container h2 {
+    margin-bottom: 35px;
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    color: #fff;
+
+}
+
+.form-group input {
+    width: 70%;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    color: #fbf5f5;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color:#8d8a8a;
+}
+.forgot-password a{
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#loginMessage {
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+}
