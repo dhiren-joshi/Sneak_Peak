@@ -39,29 +39,7 @@
 
 ---
 
-## 📁 Folder Structure
-Sneak_Peak/
-├── index.html
 
-├── styles/
-│ 
-  └── style.css
-
-├── scripts/
-│ 
-  └── main.js
-
-├── assets/
-│ 
-  ├── images/
-
-
-│ └── fonts/
-
-  └── README.md
-
-
----
 
 ## 🧪 How to Run Locally
 
