@@ -10,13 +10,6 @@
 
 ---
 
-## 📸 Live Demo
-
-🚀 [Visit Sneak Peak Website](https://your-s3-or-cloudfront-link.com)  
-_(Replace this with actual deployed URL)_
-
----
-
 ## 🧠 Overview
 
 **Sneak Peak** is a modern, minimal, and bold e-commerce website exclusively built for luxury sneakerheads. From pixel-perfect UI to smooth JS interactions, this project blends frontend finesse with cloud deployment.
