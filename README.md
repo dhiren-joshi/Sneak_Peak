@@ -1,10 +1,81 @@
 
-Tech Stack
-HTML5: Markup language used for structuring the content.
+<h1 align="center">👟 Sneak Peak — Luxury Sneakers E-Commerce Website</h1>
 
-CSS3: Styling used to create a visually appealing layout, with responsive design features.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
+</p>
 
-JavaScript: Adds interactivity and dynamic elements to the site.
+<p align="center">
+  <b>Where Design Meets Streetwear 💥</b><br>
+  Built using <code>HTML</code> • <code>CSS</code> • <code>JavaScript</code> • Deployed on <code>AWS</code> 🚀
+</p>
+
+---
+
+## 📸 Live Demo
+
+🚀 [Visit Sneak Peak Website](https://your-s3-or-cloudfront-link.com)  
+_(Replace this with actual deployed URL)_
+
+---
+
+## 🧠 Overview
+
+**Sneak Peak** is a modern, minimal, and bold e-commerce website exclusively built for luxury sneakerheads. From pixel-perfect UI to smooth JS interactions, this project blends frontend finesse with cloud deployment.
+
+> ⚡ A project crafted with heart, hustle, and high-tops.
+
+---
+
+## 💡 Features
+
+✅ Stunning landing page with hero section  
+✅ Product catalog with high-res images  
+✅ Clean and responsive UI  
+✅ Hover and scroll animations  
+✅ Deployed serverlessly on AWS (S3/CloudFront)
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology      | Use Case                         |
+|-----------------|----------------------------------|
+| HTML5           | Structure                        |
+| CSS3            | Styling & Responsiveness         |
+| JavaScript      | Interactivity                    |
+| AWS S3          | Static Website Hosting           |
+
+---
+
+## 📁 Folder Structure
+Sneak_Peak/
+├── index.html
+├── styles/
+│ └── style.css
+├── scripts/
+│ └── main.js
+├── assets/
+│ ├── images/
+│ └── fonts/
+└── README.md
+
+
+---
+
+## 🧪 How to Run Locally
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/dhiren-joshi/Sneak_Peak.git
+
+2. Open index.html in your browser.
+
+3. Boom 💥 You're browsing Sneak Peak!
+
+🚀 Deployment (AWS)
+The project is hosted using - Amazon S3: For static web hosting
+
 
 ![Screenshot 2024-10-12 225457](https://github.com/user-attachments/assets/a77a5a35-f884-4799-a476-2aec8ef8ddf3)
 
