@@ -44,21 +44,21 @@ Sneak_Peak/
 ├── index.html
 
 ├── styles/
-
-│ └── style.css
+│ 
+  └── style.css
 
 ├── scripts/
-
-│ └── main.js
+│ 
+  └── main.js
 
 ├── assets/
-
-│ ├── images/
+│ 
+  ├── images/
 
 
 │ └── fonts/
 
-└── README.md
+  └── README.md
 
 
 ---
